@@ -66,8 +66,7 @@ body {
     /* Reviews */
 
     #reviews {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
+
         height: 600px;
         width: 1500px;
         color: #9597E8;
@@ -75,9 +74,10 @@ body {
     }
 
     .review {
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
+        float: left;
+        width: 33.33%;
+        padding: 40px;
+
         background-color: black;
         border: 0 solid #9597E8;
         padding: 20px;

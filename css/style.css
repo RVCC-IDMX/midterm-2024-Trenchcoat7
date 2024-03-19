@@ -74,15 +74,21 @@ body {
     }
 
     .review {
-        float: left;
-        width: 33.33%;
-        padding: 40px;
 
         background-color: black;
         border: 0 solid #9597E8;
         padding: 20px;
-        margin: 20px;
+        margin: 10px;
         border-width: 5px;
+        height: 200px;
+    }
+
+    .reviewbox {
+
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        justify-content: center;
+
     }
 
     .title {

@@ -65,6 +65,21 @@ body {
 
     /* Reviews */
 
+    #reviews {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        color: #9597E8;
+
+    }
+
+    .review {
+        background-color: black;
+        border: 0 solid #9597E8;
+        padding: 20px;
+        margin: 20px;
+        border-width: 5px;
+    }
+
     /* Footer */
 
     footer {

@@ -7,12 +7,80 @@ body {
 /* Styles for Mobile Site */
 
 /* Header & Hero */
+header {
+    text-align: center;
+    font-size: 30pt;
+    color: #F2594B;
+
+}
+
+#hero {
+    text-align: center;
+    border: 7px solid #F2B441;
+    color: #F2B441;
+    background-color: #000000;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
 
 /* Projects */
 
+#projects {
+    text-align: center;
+}
+
+#projects img {
+
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.description {
+
+    text-align: center;
+    color: #11B4D9;
+
+}
+
 /* Reviews */
+#reviews {
+
+    text-align: center;
+
+    color: #9597E8;
+
+}
+
+.review {
+
+    background-color: black;
+    border: 0 solid #9597E8;
+    padding: 20px;
+    margin: 2px;
+    border-width: 5px;
+
+}
+
+
+.title {
+    font-size: 20pt;
+}
 
 /* Footer */
+
+#footer {
+    text-align: center;
+    font-size: 10pt;
+    color: #F2594B;
+}
 
 
 /* Media state for Desktop site */
@@ -59,6 +127,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        color: #11B4D9;
 
     }
 
@@ -67,9 +136,14 @@ body {
 
     #reviews {
 
-        height: 600px;
-        width: 1500px;
         color: #9597E8;
+
+    }
+
+    .reviewbox {
+
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
 
     }
 
@@ -78,18 +152,12 @@ body {
         background-color: black;
         border: 0 solid #9597E8;
         padding: 20px;
-        margin: 10px;
+        margin: 2px;
         border-width: 5px;
         height: 200px;
-    }
-
-    .reviewbox {
-
-        display: grid;
-        grid-template-columns: 33.33% 33.33% 33.33%;
-        justify-content: center;
 
     }
+
 
     .title {
         font-size: 20pt;
@@ -97,7 +165,7 @@ body {
 
     /* Footer */
 
-    footer {
+    #footer {
         text-align: center;
         font-size: 10pt;
         color: #F2594B;

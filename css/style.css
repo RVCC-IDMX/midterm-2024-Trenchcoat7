@@ -44,13 +44,21 @@ body {
     .project {
 
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 40% 60%;
 
     }
 
     #projects img {
 
         max-width: 600px;
+
+    }
+
+    .description {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
